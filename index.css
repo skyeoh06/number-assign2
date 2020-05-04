@@ -1,0 +1,27 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+
+/* who page */
+#who{background-image: url("photos/home-background.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+/*navbar*/
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    
+}
+.nav-link{color: #6F2020;
+}
+
+
+
