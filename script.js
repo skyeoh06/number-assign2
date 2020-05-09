@@ -27,17 +27,7 @@ $(document).ready(function(){
          $("#numberFacts").val("")
       
       });
-      $.ajax({
-        method: "GET",
-        url: `https://cors-anywhere.herokuapp.com/numbersapi.com/${userInput}/date`,
       
-      })
-      .done(function(msg) {
-        console.log(msg);
-        $("#date").html(msg);
-         $("#numberFacts").val("")
-    
-      });
       $.ajax({
         method: "GET",
         url: `https://cors-anywhere.herokuapp.com/numbersapi.com/${userInput}/year`,
@@ -45,11 +35,11 @@ $(document).ready(function(){
       })
       .done(function(msg) {
         console.log(msg);
-        $("#year").html(msg);
+        $("#yearC").html(msg);
          $("#numberFacts").val("")
         
       });
-      .ajax({
+      $.ajax({
         method: "GET",
         url: `https://cors-anywhere.herokuapp.com/numbersapi.com/${-userInput}/year`,
           
