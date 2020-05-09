@@ -5,23 +5,81 @@ body, html {
   }
 
 
-/* who page */
-#who{background-image: url("photos/home-background.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-}
-
 /*navbar*/
-.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+.navbar-nav{
+    margin-left: auto;
+    font-size: 1rem;
     
 }
-.nav-link{color: #6F2020;
+.nav-link{color:#9ACD32;
+    
+}
+/* who page */
+#who{background-image: url("photos/home-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    
 }
 
 
+/*who-title column*/
+#title{
+    text-align: left;
+    padding-top: 150px;
+    color: #9ACD32;
+}
 
+/*who-search-descrip column*/
+#search-description{
+        text-align: left;
+        padding-top: 200px;
+        padding-left: 50px;;
+        color: #DCDCDC;    
+}
+/*who-search-info column*/
+#search-info{
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 50px;;
+    color: #9ACD32;    
+}
+/*search column */
+input[type=text] {
+    border: 2px solid #9ACD32;
+    border-radius: 4px;
+    background-color:#DCDCDC ;
+  }
+input[type=button]{
+    background-color: #9ACD32;
+    border-color: #9ACD32;
+    color: white;
+    border-radius: 4px;
+  }
+/*explore-facts column*/
+#math{
+    color:#9ACD32;
+    text-align: left;
+    
+    
+}
+#trivia{
+    padding-top: 10px;
+    color:#9ACD32;
+    text-align: left;
+   
+}
+#yearC{
+    padding-top: 10px;
+    color:#9ACD32;
+    text-align: left;
+  
+}
+#yearBc{
+    padding-top: 10px;
+    color:#9ACD32;
+    text-align: left;
+  
+}
