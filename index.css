@@ -11,11 +11,11 @@ body, html {
     font-size: 1rem;
     
 }
-.nav-link{color:#9ACD32;
+.nav-link{color:#6B8E23;
     
 }
-/* who page */
-#who{background-image: url("photos/home-bg.jpg");
+/* home page */
+#home{background-image: url("photos/home-bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -25,73 +25,72 @@ body, html {
 }
 
 
-/*who-title column*/
+/*home-title column*/
 #title{
     text-align: left;
     padding-top: 150px;
-    color: #9ACD32;
+    color: #6B8E23;
 }
 
-/*who-search-descrip column*/
+/*home-search-descrip column*/
 #search-description{
         text-align: left;
         padding-top: 200px;
         padding-left: 50px;;
-        color: #DCDCDC;    
+        color: #FFDAB9;  
 }
-/*who-search-info column*/
+/*home-search-info column*/
 #search-info{
     text-align: left;
     padding-top: 80px;
     padding-left: 50px;;
-    color: #9ACD32;    
+    color: #6B8E23;    
 }
 /*search column */
 input[type=text] {
-    border: 2px solid #9ACD32;
+    border: 2px solid #6B8E23;
     border-radius: 4px;
-    background-color:#DCDCDC;
+    background-color:#FFDAB9;
   }
 input[type=button]{
-    background-color: #9ACD32;
-    border-color: #9ACD32;
-    color: white;
+    background-color:#6B8E23;
+    border-color: #6B8E23;
+    color:#FFDAB9;
     border-radius: 4px;
   }
 /*explore-facts column*/
 #math{
-    color:#9ACD32;
+    color:#FFDAB9;
     text-align: left;
     
     
 }
 #trivia{
     padding-top: 10px;
-    color:#9ACD32;
+    color:#6B8E23;
     text-align: left;
    
 }
 #yearC{
     padding-top: 10px;
-    color:#9ACD32;
+    color:#FFDAB9;
     text-align: left;
   
 }
 #yearBc{
     padding-top: 10px;
-    color:#9ACD32;
+    color:#6B8E23;
     text-align: left;
   
 }
-/*when page*/
-#when{
-    background-color: #DCDCDC;
+/*timeline page*/
+#timeline{
+    background-color: #6B8E23;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    
   }
   .main-timeline-section{
     position: relative; 
@@ -102,9 +101,9 @@ input[type=button]{
   .main-timeline-section .timeline-start,
   .main-timeline-section .timeline-end{
     position: absolute;
-    background:#9ACD32;
+    background:#FFDAB9;
     border-radius:100px;
-    top:50%;
+    top:75%;
     transform: translateY(-50%);
     width:30px;
     height:30px;
@@ -116,43 +115,47 @@ input[type=button]{
     position: absolute;
     width:100%;
     height:5px;
-    top:50%;
+    top:75%;
     transform: translateY(-50%);
-    background:#9ACD32;
+    background:#FFDAB9;
   }
   .timeline-article{
-      width: 9%;
+      width: 11%;
       position: relative;
       min-height: 300px;
       float:right;
   }
   .timeline-article .content-date{
       position: absolute;
-      top: 35%;
+      top: 78%;
       left: -30px; 
       font-size:18px;
+      color:#FFDAB9;
   }
   .timeline-article .meta-date{
       position: absolute;
-      top: 50%;
+      top:75%;
       left: 0px;
       transform: translateY(-50%); 
       width:20px;
       height:20px;
       border-radius: 100%;
-      background:#fff;
-      border:1px solid #9ACD32;
+      background:#FFDAB9;
+      border:1px solid #FFDAB9;
   }
   .timeline-article .content-box{
-    box-shadow: 2px 2px 4px 0px #c1c1c1;
-    border:1px solid #9ACD32;
+    box-shadow: 2px 2px 4px 0p #FFDAB9;
+    border:1px solid #FFDAB9;
     border-radius: 5px;
-    background-color: #fff;
-    width: 120px;
+    background-color:#FFDAB9;
+    height:100px;
+    width: 150px;
     position: absolute;
-    top: 60%;
-    left: -50px; 
-    padding:10px;
+    top: 93%;
+    left: -65px; 
+    padding:8px;
+    font-size: 0.8em;
+    
   }
   .timeline-article-top .content-box:before{
     content: " ";
@@ -161,13 +164,14 @@ input[type=button]{
     transform: translateX(-50%);
     top:-20px;
     border:10px solid transparent;
-    border-bottom-color: #9ACD32;
+    border-bottom-color: #FFDAB9;
   }
   .timeline-article-bottom .content-date{
-    top: 59%;
+    top: 63%;
+    color:#FFDAB9;
   }
   .timeline-article-bottom .content-box{
-    top: 0%;
+    top: 23%;
   }
   .timeline-article-bottom .content-box:before{
     content: " ";
@@ -176,7 +180,7 @@ input[type=button]{
     transform: translateX(-50%);
     bottom:-20px;
     border:10px solid transparent;
-    border-top-color:#9ACD32;
+    border-top-color:#FFDAB9;
   }
   
   
@@ -185,3 +189,58 @@ input[type=button]{
       display: none;
     }
   }
+  /*math page*/
+#math{
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 12.5%;
+  height:120px;
+  border: 1px solid #6B8E23;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color:#FFDAB9;
+  color:#6B8E23 ;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #6B8E23;
+  color: white;
+  transform: rotateY(180deg);
+  font-size: small;
+}
