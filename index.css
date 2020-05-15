@@ -189,8 +189,8 @@ input[type=button]{
       display: none;
     }
   }
-  /*math page*/
-#math{
+/*math page*/
+#maths{
   background-color: white;
   background-position: center center;
   background-repeat: no-repeat;
@@ -198,16 +198,17 @@ input[type=button]{
   background-size: cover;
   height: 100vh;
 }
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* The flip card container */
 .flip-card {
   background-color: transparent;
-  width: 12.5%;
+  width: 12%;
   height:120px;
-  border: 1px solid #6B8E23;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  border: 1px solid white;
+  perspective: 1000px; 
+  margin:0.5px;
 }
 
-/* This container is needed to position the front and back side */
+/* content-inner*/
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -217,7 +218,7 @@ input[type=button]{
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* flip over mouse event */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -227,7 +228,7 @@ input[type=button]{
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden; 
   backface-visibility: hidden;
 }
 
@@ -235,6 +236,7 @@ input[type=button]{
 .flip-card-front {
   background-color:#FFDAB9;
   color:#6B8E23 ;
+  font-size: 0.85rem;
 }
 
 /* Style the back side */
@@ -243,4 +245,82 @@ input[type=button]{
   color: white;
   transform: rotateY(180deg);
   font-size: small;
+}
+/*numerology*/
+#numerology{
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: solid 33px #FFDAB9;
+  height: 100vh;
+}
+#num-intro{
+  background-color: #FFDAB9;
+  color:#6B8E23;
+}
+/*game page*/
+#game{
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: solid 33px #FFDAB9;
+  height: 100vh;
+}
+.submit{
+  /*margin-bottom:10px;*/
+  text-align: center;
+
+}
+button{
+  margin-top: 1%;
+  padding:10px;
+  background:#FFDAB9;
+  border:solid 1px #FFDAB9;
+  font-size:18px;
+  color:#6B8E23;
+  cursor:pointer;
+  outline:none;
+  border-radius: 2cm;
+}
+/*hover css */
+button:hover{
+  background:#6B8E23;
+  color:#fff;
+}
+#results{
+  margin-top: 10%;
+  padding:30px;
+  font-size:58px;
+  text-align: center;
+  color:#FFDAB9;
+  border:solid 3px #6B8E23; 
+  background-color: #6B8E23;
+  border-radius: 2cm;
+}
+/*animation*/
+.rotate{
+  animation: rotation 8s infinite linear;
+  margin: 35px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-image:url("photos/bowling-ball.jpg");
+  background-size: cover ;
+  position: relative;
+  font-size: 70px;
+  text-align: center;
+  color:#FFDAB9;
+}
+
+@keyframes rotation{
+  from{transform: rotate(0deg);}
+  to{transform:rotate(359deg);}
+}
+
+#animate-1.rotate{
+  
 }
