@@ -34,9 +34,9 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link active" style="color:black;"href="#home">Home<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#timeline">Timeline</a>
-            <a class="nav-item nav-link" href="#math">Math</a>
-            <a class="nav-item nav-link" href="#what">What</a>
-            <a class="nav-item nav-link" href="#how">How</a>
+            <a class="nav-item nav-link" href="#maths">Math</a>
+            <a class="nav-item nav-link" href="#numerology">Numerology</a>
+            <a class="nav-item nav-link" href="#game">Game</a>
           </div> 
         </div>
       </nav>
@@ -181,7 +181,7 @@
     </section>
     <!--math page-->
     <section>
-      <div class="jumbotron" id="math">
+      <div class="jumbotron" id="maths">
         <!--Content start-->
         <div class="container">
           <h1 style="color:#6B8E23">Numbers Facts in Mathematical</h1>
@@ -615,7 +615,7 @@
               <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <p>39.111,111,111 × 111,111,111 = 12,345,678,987,654,321</p>
+                    <p>39.111,111,111 × 111,111,111 = 12,345,678,987,  654,321</p>
                   </div>
                   <div class="flip-card-back">
                     <p>Though good luck finding a calculator that can factor equations in the millions.</p>
@@ -643,13 +643,118 @@
         <!--content end-->
       </div>
     </section>
+    <!--numerology page-->
+    <section>
+      <div class="jumbotron" id="numerology">
+        <div class="container">
+          <div id="num-intro">
+          <h1>The Basics of Numerology</h1>
+          <p>Your Life Path Number/Master Number and Destiny Number-it's meaning.</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-6" id="life-path-num">
+              <p>Calculate Your Life Path Number</P>
+              <ul>
+                <li>By reduce digits(your birth date) to a single-digit number,excluding 11 and 22(Master Numbers).</li>
+                <li>It reveals your greater purpose, including strengths, weaknesses,talents and ambitious.</li>
+                <li>It's the method to the madness.</li>
+                <li>Example: December 15,1992<br>
+                    Month 12 ==> 1+2 = 3
+                    Date 15 ==> 1+5 = 6
+                    Year 1992 ==> 1+9+9+2 ==> 21 ==> 2+1 =3
+                    Then (3+6+3) ==> 12 ==> 1+2 = 3
+                </li>
+                <li>Master number(11 or 22) suggest a high degree for learning, achievement, or success, but likely in a more stressful 
+                  or high-pressure environment.</li>
+               </ul>
+            </div>
+            <div class="col-sm-6" id="destiny-num">
+              <p>Calculate Your Destiny Number</p>
+              <ul>
+                <li>By derive the root number of names or words-this is where our ancient buddy Pythagoras lends a hand.</li>
+                <li>According to his theories, certain letters have specific numerical values, which are as follows:</li>
+                <li>1=A,J,S  2=B,K,T  3=C,L,U<br>
+                    4=D,M,V  5=E,N,W  6=F,O,X<br>
+                    7=G,P,Y  8=H,Q,Z  9=I,R
+                </li>
+                <li>Example: KELLY (2+5+3+3+7 = 20)==> 2+0 = 2.</li>
+                <li>Your Destiny Number offers insight as to how you will express your greater goals.</li>
+              </ul>
+            </div>
+          </div>
+          <div id="number-interpretations">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--game page-->
+    <section>
+      <div class="jumbotron" id="game">
+        <!--Content start-->
+        <div class="container">
+          <h1 style="color:#6B8E23;text-align: center;">Game: Lucky Numbers Prediction</h1>
+          <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <!--display result-->
+              <div id="results"></div>
+              <!--generate the number-->
+              <div class="submit">
+                <button onclick="generate(7, 1, 49);">Generate</button>
+              </div>
+            </div>
+            <div class="col-sm-3"></div>
+          </div>
+          <!--display number in animate-->
+          <div class="row">
+            <div class="col-sm-1">
+              <div class="rotate">1</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">2</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">3</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">4</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">5</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">6</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">7</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">8</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">9</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">10</div>
+            </div>
+            <div class="col-sm-1">
+              <div class="rotate">11</div>
+            </div>
+          </div>
+        </div>
+        <!--content end-->    
+      </div>
+
+    </section>
+
 
        
   <!--Javascript-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
   <script src="script.js"></script>
-  <script src="timeline.js"></script>
+  <script src="generate.js"></script>
   </body>
  
 </html>
