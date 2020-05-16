@@ -7,6 +7,353 @@ body, html {
 
 /*navbar*/
 .navbar-nav{
+body, html {
+  height: 100%;
+  width:100%
+  margin: 0;
+}
+
+
+/*navbar*/
+.navbar-nav{
+  margin-left: auto;
+  font-size: 1rem;
+  
+}
+.nav-link{color:#6B8E23;
+  
+}
+/* home page */
+#home{background-color:white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  
+}
+
+
+/*home-title column*/
+#title{
+  text-align: left;
+  padding-top: 90px;
+  color: #6B8E23;
+  background-color: #FFDAB9;
+  padding-bottom: 90px;
+}
+
+/*home-search-descrip column*/
+#search-description{
+      text-align: left;
+      padding-top: 100px;
+      padding-left: 50px;;
+      color: #FFDAB9;  
+      background-color: #6B8E23;
+}
+/*home-search-info column*/
+#search-info{
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 50px;;
+  color: #6B8E23;    
+}
+/*search column */
+input[type=text] {
+  border: 2px solid #6B8E23;
+  border-radius: 4px;
+  background-color:#FFDAB9;
+}
+input[type=button]{
+  background-color:#6B8E23;
+  border-color: #6B8E23;
+  color:#FFDAB9;
+  border-radius: 4px;
+}
+/*explore-facts column*/
+#math{
+  color:#FFDAB9;
+  text-align: left;
+  
+  
+}
+#trivia{
+  padding-top: 10px;
+  color:#6B8E23;
+  text-align: left;
+ 
+}
+#yearC{
+  padding-top: 10px;
+  color:#FFDAB9;
+  text-align: left;
+
+}
+#yearBc{
+  padding-top: 10px;
+  color:#6B8E23;
+  text-align: left;
+
+}
+/*timeline page*/
+#timeline{
+  background-color: #6B8E23;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.main-timeline-section{
+  position: relative; 
+  width: 100%;  
+  margin:auto; 
+  height: 300px;
+}
+.main-timeline-section .timeline-start,
+.main-timeline-section .timeline-end{
+  position: absolute;
+  background:#FFDAB9;
+  border-radius:100px;
+  top:55%;
+  transform: translateY(-50%);
+  width:30px;
+  height:30px;
+}
+.main-timeline-section .timeline-end{
+  right:0px;
+}
+.main-timeline-section .conference-center-line{
+  position: absolute;
+  width:100%;
+  height:5px;
+  top:55%;
+  transform: translateY(-50%);
+  background:#FFDAB9;
+}
+.timeline-article{
+    width: 11%;
+    position: relative;
+    min-height: 300px;
+    float:right;
+}
+.timeline-article .content-date{
+    position: absolute;
+    top: 58%;
+    left: -30px; 
+    font-size:18px;
+    color:#FFDAB9;
+}
+.timeline-article .meta-date{
+    position: absolute;
+    top:55%;
+    left: 0px;
+    transform: translateY(-50%); 
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    background:#FFDAB9;
+    border:1px solid #FFDAB9;
+}
+.timeline-article .content-box{
+  box-shadow: 2px 2px 4px 0p #FFDAB9;
+  border:1px solid #FFDAB9;
+  border-radius: 5px;
+  background-color:#FFDAB9;
+  height:100px;
+  width: 150px;
+  position: absolute;
+  top: 73%;
+  left: -65px; 
+  padding:8px;
+  font-size: 0.8em;
+  
+}
+.timeline-article-top .content-box:before{
+  content: " ";
+  position:absolute; 
+  left:50%;
+  transform: translateX(-50%);
+  top:-20px;
+  border:10px solid transparent;
+  border-bottom-color: #FFDAB9;
+}
+.timeline-article-bottom .content-date{
+  top: 38%;
+  color:#FFDAB9;
+}
+.timeline-article-bottom .content-box{
+  top: 3%;
+}
+.timeline-article-bottom .content-box:before{
+  content: " ";
+  position:absolute; 
+  left:50%;
+  transform: translateX(-50%);
+  bottom:-20px;
+  border:10px solid transparent;
+  border-top-color:#FFDAB9;
+}
+
+
+@media (max-width:460px){
+  body{
+    display: none;
+  }
+}
+/*math page*/
+#maths{
+background-color: white;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+/* The flip card container */
+.flip-card {
+background-color: transparent;
+width: 12%;
+height:120px;
+border: 1px solid white;
+perspective: 1000px; 
+margin:0.5px;
+}
+
+/* content-inner*/
+.flip-card-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+
+/* flip over mouse event */
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden; 
+backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+background-color:#FFDAB9;
+color:#6B8E23 ;
+font-size: 0.85rem;
+}
+
+/* Style the back side */
+.flip-card-back {
+background-color: #6B8E23;
+color: white;
+transform: rotateY(180deg);
+font-size: small;
+}
+/*numerology*/
+#numerology{
+background-color: #FFDAB9;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+/*border: solid 33px #FFDAB9;*/
+
+}
+#num-intro{
+background-color: #FFDAB9;
+color:#6B8E23;
+}
+
+#life-path-num{
+  background-color: #FFDAB9;
+  color:#6B8E23;
+  border-radius: 0.3cm;
+  font-size: 0.8rem;
+}
+#destiny-num{
+  background-color: #6B8E23;
+  color:#FFDAB9;
+  border-radius: 0.3cm;
+  font-size: 0.8rem;
+}
+#numInIntro{
+  color:#6B8E23;
+  border-radius: 0.3cm;
+  }
+div.numberInterp{
+  background-color: #6B8E23;
+  color:#FFDAB9;
+  border-radius: 0.3cm;
+  height:350px;
+  overflow: scroll;
+
+}
+/*game page*/
+#game{
+background-color: #6B8E23;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+/*submit generate function*/
+#submit{
+margin-top: 1%;
+padding:10px;
+background:#FFDAB9;
+border:solid 1px #FFDAB9;
+font-size:18px;
+color:#6B8E23;
+cursor:pointer;
+outline:none;
+border-radius: 2cm;
+}
+/*hover css */
+#submit:hover{
+background:#6B8E23;
+color:#fff;
+}
+#results{
+margin-top: 10%;
+padding:30px;
+font-size:58px;
+text-align: center;
+color:#FFDAB9;
+border:solid 3px #6B8E23; 
+background-color: #6B8E23;
+border-radius: 2cm;
+}
+/*animation*/
+.rotate{
+animation: rotation 8s infinite linear;
+margin: 35px;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background-image:url("photos/bowling-ball.jpg");
+background-size: cover ;
+position: relative;
+font-size: 70px;
+text-align: center;
+color:#FFDAB9;
+}
+
+@keyframes rotation{
+from{transform: rotate(0deg);}
+to{transform:rotate(359deg);}
+}
+
+
   margin-left: auto;
   font-size: 1rem;
   
