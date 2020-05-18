@@ -2,7 +2,7 @@
 body, html {
   height: 100%;
   width:100%
-  margin: 0;
+  margin : 0;
 }
 
 
@@ -22,9 +22,7 @@ body, html {
   background-attachment: fixed;
   background-size: cover;
   
-  
 }
-
 
 /*home-title column*/
 #title{
@@ -103,6 +101,7 @@ input[type=button]{
   margin:auto; 
   height: 300px;
 }
+
 .main-timeline-section .timeline-start,
 .main-timeline-section .timeline-end{
   position: absolute;
@@ -113,6 +112,7 @@ input[type=button]{
   width:30px;
   height:30px;
 }
+
 .main-timeline-section .timeline-end{
   right:0px;
 }
@@ -125,12 +125,14 @@ input[type=button]{
   transform: translateY(-50%);
   background:#FFDAB9;
 }
+
 .timeline-article{
     width: 11%;
     position: relative;
     min-height: 300px;
     float:right;
 }
+
 .timeline-article .content-date{
     position: absolute;
     top: 58%;
@@ -138,6 +140,7 @@ input[type=button]{
     font-size:18px;
     color:#FFDAB9;
 }
+
 .timeline-article .meta-date{
     position: absolute;
     top:55%;
@@ -149,6 +152,7 @@ input[type=button]{
     background:#FFDAB9;
     border:1px solid #FFDAB9;
 }
+
 .timeline-article .content-box{
   box-shadow: 2px 2px 4px 0p #FFDAB9;
   border:1px solid #FFDAB9;
@@ -163,6 +167,7 @@ input[type=button]{
   font-size: 0.8em;
   
 }
+
 .timeline-article-top .content-box:before{
   content: " ";
   position:absolute; 
@@ -172,13 +177,16 @@ input[type=button]{
   border:10px solid transparent;
   border-bottom-color: #FFDAB9;
 }
+
 .timeline-article-bottom .content-date{
   top: 38%;
   color:#FFDAB9;
 }
+
 .timeline-article-bottom .content-box{
   top: 3%;
 }
+
 .timeline-article-bottom .content-box:before{
   content: " ";
   position:absolute; 
@@ -195,6 +203,7 @@ input[type=button]{
     display: none;
   }
 }
+
 /*math page*/
 #maths{
 background-color: white;
@@ -211,8 +220,8 @@ background-color: transparent;
 width: 12%;
 height:120px;
 border: 1px solid white;
-perspective: 1000px; 
-margin:0.5px;
+perspective: 1000px;
+padding:3px;
 }
 
 /* content-inner*/
@@ -264,7 +273,8 @@ background-size: cover;
 /*border: solid 33px #FFDAB9;*/
 
 }
-#num-intro{
+
+#num-banner{
 background-color: #FFDAB9;
 color:#6B8E23;
 }
@@ -296,6 +306,7 @@ div.numberInterp{
   overflow: scroll;
 
 }
+
 /*game page*/
 #game{
 background-color: #6B8E23;
@@ -303,8 +314,8 @@ background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-
 }
+
 /*submit generate function*/
 #submit{
 margin-top: 1%;
@@ -317,11 +328,13 @@ cursor:pointer;
 outline:none;
 border-radius: 2cm;
 }
+
 /*hover css */
 #submit:hover{
 background:#6B8E23;
 color:#fff;
 }
+
 #results{
 margin-top: 10%;
 padding:30px;
@@ -352,3 +365,11 @@ from{transform: rotate(0deg);}
 to{transform:rotate(359deg);}
 }
 
+.footer {
+  top:2vh;
+  left: 0;
+  bottom: 0;
+  width:100vw;
+  color: black;
+  text-align: center;
+}
