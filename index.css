@@ -37,7 +37,6 @@ body, html {
 #search-description{
       text-align: left;
       padding-top: 100px;
-      padding-left: 50px;;
       color: #FFDAB9;  
       background-color: #6B8E23;
 }
@@ -65,6 +64,7 @@ input[type=button]{
 #math{
   color:#6B8E23;
   text-align: left;
+  background-color: #FFDAB9;
   
   
 }
@@ -72,18 +72,21 @@ input[type=button]{
   padding-top: 10px;
   color:#6B8E23;
   text-align: left;
+  background-color: #FFDAB9;
  
 }
 #yearC{
   padding-top: 10px;
   color:#6B8E23;
   text-align: left;
+  background-color: #FFDAB9;
 
 }
 #yearBc{
   padding-top: 10px;
   color:#6B8E23;
   text-align: left;
+  background-color: #FFDAB9;
 
 }
 /*timeline page*/
@@ -252,7 +255,7 @@ backface-visibility: hidden;
 .flip-card-front {
 background-color:#FFDAB9;
 color:#6B8E23 ;
-font-size: 0.85rem;
+font-size: 0.5rem;
 }
 
 /* Style the back side */
@@ -260,7 +263,7 @@ font-size: 0.85rem;
 background-color: #6B8E23;
 color: white;
 transform: rotateY(180deg);
-font-size: small;
+font-size: 0.45rem;
 }
 
 /*numerology*/
