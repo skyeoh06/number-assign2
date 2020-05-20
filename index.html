@@ -19,20 +19,17 @@
   <body>
     <div class="container">
       <!--navigation bar menu-->
-      <nav class="navbar navbar-expand-lg  bg-light fixed-top" >
-        <a class="navbar-brand mb-0 h1" href="#" style="color: #6B8E23;"></a>
-          <img src="photos/home-icon.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-           Numbers
-        
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+        <img src="photos/home-icon.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href style="color:#6B8E23">Numbers</a>
         <!--collapse button-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <!--navigation item-->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" style="color:black;" href="#home">Home<span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse" id="navbarToggler" >
+          <div class="navbar-nav mr-auto mt-2 mt-lg-0" >
+            <a class="nav-item nav-link active" href="#home">Home</a>
             <a class="nav-item nav-link" href="#timeline">Timeline</a>
             <a class="nav-item nav-link" href="#maths">Math</a>
             <a class="nav-item nav-link" href="#numerology">Numerology</a>
@@ -50,14 +47,14 @@
             <!--banner-->
             <div class="row">
               <div class="col-sm-3" id="title">
-                <h5>Welcome To Numbers Facts</h5>
+                <h1>Welcome To Numbers Facts</h1>
               </div>
               <div class="col-sm-3" id="search-description">
-                <h5>Search for Interesting Numbers Facts</h5>
+                <h3>Search for Interesting Numbers Facts</h3>
               </div>
               <div class="col-sm-6" id="search-info">
                 <div class="row">
-                  <h5>Please key in a number:</h>
+                  <h3>Please key in a number:</h3>
                 </div> 
                 <div class="row">
                   <form>
@@ -92,7 +89,7 @@
             <h1 style="color:#FFDAB9;">Timeline of Number</h1>
           </div>
           <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-sm-12">
               <div class="main-timeline-section">
                   <div class="timeline-start"></div>
                   <div class="conference-center-line"></div>
@@ -872,8 +869,10 @@
   <!--Javascript-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/generate.js"></script>
+  <script src="js/navbar.js"></script>
   
   </body>
  
