@@ -443,14 +443,14 @@ to{transform:rotate(359deg);}
     }
   .rotate{
     animation: rotation 8s infinite linear;
-    margin: 2px;
+    margin: 6px;
     border-radius: 50%;
-    width: 10vw;
+    width: 6vw;
     height: 6vh;
     background-image:url("photos/bowling-ball.jpg");
     background-size: cover ;
-    position: relative;
-    font-size: 8vw;
+    position: center;
+    font-size: 5vw;
     text-align: center;
     color:#FFDAB9;
     }
