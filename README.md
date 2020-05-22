@@ -88,6 +88,7 @@ There is not difference for deployment version and development version
 
 ## **Credits**
 **(1) Content**
+
 Info on numbersapi from http://numbersapi.com/
 
 Info on timeline from https://en.wikipedia.org/wiki/Timeline_of_numerals_and_arithmetic
@@ -101,4 +102,8 @@ The image was search from http://www.goole.com
 
 **(3) Acknowledgements**
 Get the idea of how platform look likes from Instagram #dailywebdesing
-Some code info from https://www.codexworld.com/ https://www.w3schools.com/
+Some code info from 
+
+https://www.codexworld.com/ 
+
+https://www.w3schools.com/
