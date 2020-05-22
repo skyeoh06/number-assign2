@@ -3,24 +3,16 @@ body, html {
   height: 100%;
   margin: 0;
 }
-/*change navbar color*/
-.bg-light{
-  background-color: white;
-} 
 
+a{
+  color:#6B8E23!important;
+}
 /*navbar*/
 .navbar-nav{
-  margin-left: auto;
-  
-  
-}
-.navbar-dark .navbar-nav .nav-link{
-  color:#6B8E23;
-}
-.nav-item{color:#6B8E23;
-          padding-left: 50px;
+  margin-left: auto; 
   
 }
+
 .active{
   color:black!important;
 }
