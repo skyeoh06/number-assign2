@@ -3,7 +3,11 @@ body, html {
   height: 100%;
   margin: 0;
 }
-
+/*change navbar background color*/
+.bg-light{
+  background-color: #FFDAB9!important;
+}
+/*nav-link color*/
 a{
   color:#6B8E23!important;
 }
