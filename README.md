@@ -4,46 +4,46 @@
 
 By: Seok Khim Yeoh
 
-##**Demo**
+## **Demo**
 
 Link to the project demo on webpage [here](https://skyeoh06.github.io/number-assign2/).
 
 ![Desktop image](https://github.com/skyeoh06/number-assign2/blob/master/testing/responsive.jpg)
 
-##O **bjective**
+## **Objective**
 
 This project started with from the founding of number API which reveals interesting facts about number in the view of math, trivia, year areas. As know, number involved almost all the events/activities in our daily life.
 With this, the objective of this webpage was design with the concept of fun and study for all ranges of users who interested about numbers.
 
 ## **UX**
 Numbers appear in study, game , analysis and etc. 
-*Facts(home) - a concept for users know about numbers beyond the meaning of the digit itself and its related to all event that happened.
-*Timeline - a concept for users to explore numbers knowledge of this area(when the number start to be created by different by different region of the world).
-*Maths - a concept for users to explore number meaning and its related to the mathematic areas.
-*Numerology - a concept for users to explore the uses of analysia number related to their DOB and Names and suggestion for their life decision.
-*Game - a concept for users to play uses of random number that just for fun.
+* Facts(home) - a concept for users know about numbers beyond the meaning of the digit itself and its related to all event that happened.
+* Timeline - a concept for users to explore numbers knowledge of this area(when the number start to be created by different by different region of the world).
+* Maths - a concept for users to explore number meaning and its related to the mathematic areas.
+* Numerology - a concept for users to explore the uses of analysia number related to their DOB and Names and suggestion for their life decision.
+* Game - a concept for users to play uses of random number that just for fun.
 
 
 ## **UI**
 1.Project Strategy
-*The Navigation is responsive for different sizes of screen with uses of bootstrap cdn. 
-*For the screen width smaller than 1000px, a dropdown menu with links to the pages of the website for users to navigate there directly.
-*For the screen width larger than 1000px, a nav-bar is placed on the center top of the webpage and fixed top for users to easy access to navigate to other page content of the website.
-*With the code of Javasript, it highlights the title(navbar item) that being access by users. This show to the users idea of the page that currenly being viewed.
-*Google [fonts] (https://fonts.google.com/specimen/Playfair+Display?selection.family=Playfair+Display) were chosen for this website. This is choose for easy view for the users.
-*The page with color choose based on simple two color for clean , tidy webpage ideas.
-*The [Home](https://skyeoh06.github.io/number-assign2/#home) that provided users to explore the number facts by input in the column under "Please key in a number" and retrieve the result by clicking the button "Search".Re.lated info will be presented under the (Facts:) column below
-*The [Timeline](https://skyeoh06.github.io/number-assign2/#timeline), uses a vertical timeline css for clear and easy understand history of number presentation.
-*The [Mathematic](https://skyeoh06.github.io/number-assign2/#mathematic), uses of the flip card css to present the info number facts related to the mathematics.
-*The [Numerology](https://skyeoh06.github.io/number-assign2/#numerology), uses of simple presentation of two color and scroll bar content css for the content.
-*The [Game](https://skyeoh06.github.io/number-assign2/#game), uses of javascript to generate the random number code each times with the button "Generate" being clicked.
+* The Navigation is responsive for different sizes of screen with uses of bootstrap cdn. 
+* For the screen width smaller than 1000px, a dropdown menu with links to the pages of the website for users to navigate there directly.
+* For the screen width larger than 1000px, a nav-bar is placed on the center top of the webpage and fixed top for users to easy access to navigate to other page content of the website.
+* With the code of Javasript, it highlights the title(navbar item) that being access by users. This show to the users idea of the page that currenly being viewed.
+* Google [fonts] (https://fonts.google.com/specimen/Playfair+Display?selection.family=Playfair+Display) were chosen for this website. This is choose for easy view for the users.
+* The page with color choose based on simple two color for clean , tidy webpage ideas.
+* The [Home](https://skyeoh06.github.io/number-assign2/#home) that provided users to explore the number facts by input in the column under "Please key in a number" and retrieve the result by clicking the button "Search".Re.lated info will be presented under the (Facts:) column below
+* The [Timeline](https://skyeoh06.github.io/number-assign2/#timeline), uses a vertical timeline css for clear and easy understand history of number presentation.
+* The [Mathematic](https://skyeoh06.github.io/number-assign2/#mathematic), uses of the flip card css to present the info number facts related to the mathematics.
+* The [Numerology](https://skyeoh06.github.io/number-assign2/#numerology), uses of simple presentation of two color and scroll bar content css for the content.
+* The [Game](https://skyeoh06.github.io/number-assign2/#game), uses of javascript to generate the random number code each times with the button "Generate" being clicked.
 
 2.Scope of the project
-*Home--number facts(in math, trivia,and year) info.
-*Timeline-History of number being invented.
-*Mathematic-Present the number facts in mathematics areas.
-*Numerology-A analysis in number of users Date of birth and name that impact the character of that users and his/hers choices.
-*Game-A uses of random number for a simple quick number generate game for users.
+* Home--number facts(in math, trivia,and year) info.
+* Timeline-History of number being invented.
+* Mathematic-Present the number facts in mathematics areas.
+* Numerology-A analysis in number of users Date of birth and name that impact the character of that users and his/hers choices.
+* Game-A uses of random number for a simple quick number generate game for users.
 
 3.Layout Draft
 The Draft of layour can be view in this folder link:
@@ -51,10 +51,10 @@ The Draft of layour can be view in this folder link:
 
 ## **Features**
 1.Existing Features
-*Button click function
-*Timeline
-*Flip Card
-*The webpage is mobile-friendly and reponsive.
+* Button click function
+* Timeline
+* Flip Card
+* The webpage is mobile-friendly and reponsive.
 
 2.Additional Features to be implementer in th future.
 *more commercial value info and design
