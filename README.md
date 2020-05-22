@@ -89,8 +89,11 @@ There is not difference for deployment version and development version
 ## **Credits**
 **(1) Content**
 Info on numbersapi from http://numbersapi.com/
+
 Info on timeline from https://en.wikipedia.org/wiki/Timeline_of_numerals_and_arithmetic
+
 Info on mathematics from https://bestlifeonline.com/number-facts/
+
 Info on numerology from https://www.allure.com/story/numerology-how-to-calculate-life-path-destiny-number
 
 **(2) Media**
