@@ -7,7 +7,7 @@ $(document).ready(function(){
       var userInput = $("#numberFacts").val();
       $.ajax({
           method: "GET",
-          url: `https://cors-anywhere.herokuapp.com/numbersapi.com/${userInput}/math`,
+          url: `https://numbersapi.com/${userInput}/math`,
           
       })
       .done(function(msg) {
