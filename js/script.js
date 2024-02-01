@@ -7,7 +7,7 @@ $(document).ready(function(){
       var userInput = $("#numberFacts").val();
       $.ajax({
           method: "GET",
-          url: `https://numbersapi.com/${userInput}/math`,
+          url: `https://cors-anywhere/numbersapi.com/${userInput}/math`,
           
       })
       .done(function(msg) {
@@ -18,7 +18,7 @@ $(document).ready(function(){
       });
       $.ajax({
         method: "GET",
-        url: `https://cors-anywhere.herokuapp.com/numbersapi.com/${userInput}/trivia`,
+        url: `https://cors-anywhere/numbersapi.com/${userInput}/trivia`,
         
       })
       .done(function(msg) {
@@ -30,7 +30,7 @@ $(document).ready(function(){
       
       $.ajax({
         method: "GET",
-        url: `https://cors-anywhere.herokuapp.com/numbersapi.com/${userInput}/year`,
+        url: `https://cors-anywhere/numbersapi.com/${userInput}/year`,
           
       })
       .done(function(msg) {
@@ -41,7 +41,7 @@ $(document).ready(function(){
       });
       $.ajax({
         method: "GET",
-        url: `https://cors-anywhere.herokuapp.com/numbersapi.com/${-userInput}/year`,
+        url: `https://cors-anywhere/numbersapi.com/${-userInput}/year`,
           
       })
       .done(function(msg) {
